@@ -1,4 +1,5 @@
 # Ignore .idea files
 .idea/
 venev/
-pageObjects/__pycache__/
+__pycache__/
+*.pyc
