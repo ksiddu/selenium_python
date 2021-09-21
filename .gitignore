@@ -1,3 +1,4 @@
 # Ignore .idea files
 .idea/
 venev/
+pageObjects/__pycache__/

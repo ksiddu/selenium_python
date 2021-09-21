@@ -1,1 +1,140 @@
 this is selenium python project
+
+Imp Links:
+===============
+
+https://stackoverflow.com/questions/30464980/how-to-check-all-versions-of-python-installed-on-osx-and-centos
+
+https://python.land/virtual-environments/virtualenv
+
+https://dev.to/malwarebo/how-to-set-python3-as-a-default-python-version-on-mac-4jjf
+
+https://www.programiz.com/python-programming/methods/list/sort
+
+https://www.programiz.com/python-programming
+
+https://www.programiz.com/python-programming/methods/list/copy
+
+https://www.programiz.com/python-programming/shallow-deep-copy
+
+https://stackoverflow.com/questions/66167135/while-using-pytest-in-pycharm-ide-i-am-unable-to-see-the-run-button
+
+https://pypi.org/project/pytest-html/
+
+https://docs.pytest.org/en/6.2.x/example/parametrize.html
+
+Command line arguments links:
+
+https://docs.pytest.org/en/6.2.x/example/index.html
+
+https://docs.pytest.org/en/6.2.x/example/simple.html#dynamically-adding-command-line-options
+
+
+https://pypi.org/project/webdriver-manager/
+
+
+
+
+# to create venv for python project
+
+python -m venv venv
+
+source venv/bin/activate
+
+deactivate
+
+rm -r venv
+
+# pytest COMMANDS:
+
+pip install --index-url=https://pypi.python.org/simple/  selenium
+
+pip install --index-url=https://pypi.python.org/simple/  webdriver-manager
+
+pip install --index-url=https://pypi.python.org/simple/  pytest
+
+pip install --index-url=https://pypi.python.org/simple/  pytest-html
+
+pip install --index-url=https://pypi.python.org/simple/  pytest-xdist
+
+pytest -rA --junitxml="index.xml"
+
+pytest --html="index1.html"
+
+
+Markers
+===========
+
+pytest -rA test_markersdemo.py -m smoke
+
+pytest -rA test_markersdemo.py -m regression
+
+
+pytest -rA test_markersdemo.py -m "not regression"
+
+
+pytest -rA test_markersdemo.py -m "smoke or regression"
+
+COMMAND LINE ARGUMENTS
+======================
+
+pytest -rA tests/test_e2e.py --browser_name firefox
+
+pytest -rA tests/test_e2e.py --browser_name chrome
+
+
+pytest -rA tests/test_e2e.py --browser_name ie
+
+with default chrome as the browser
+
+pytest -rA tests/test_e2e.py
+
+
+XML & HTML REPORT
+======================
+
+pytest tests/test_e2e.py -rA --junitxml=MyXmlReport.xml
+
+
+pytest tests/test_e2e.py -rA --html=MyHtmlReport.html
+
+
+
+
+
+Rahul Shetty Test Applications
+=================================
+
+https://rahulshettyacademy.com/#/practice-project
+
+https://rahulshettyacademy.com/seleniumPractise/#/
+
+https://rahulshettyacademy.com/AutomationPractice/
+
+https://rahulshettyacademy.com/angularpractice/
+
+
+REST API Test Test Applications
+====================================
+http://api.zippopotam.us
+
+http://httpbin.org/
+
+
+
+REST API BLOGS
+==================
+
+https://www.machinelearningplus.com/python/requests-in-python/
+
+https://www.ontestautomation.com/writing-tests-for-restful-apis-in-python-using-requests-part-1-basic-tests/
+
+
+SELENIUM PYTHON BLOGS
+========================
+
+https://www.lambdatest.com/blog/page-object-model-in-selenium-python/
+
+https://www.geeksforgeeks.org/selenium-python-tutorial/
+
+

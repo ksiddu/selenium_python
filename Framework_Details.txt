@@ -1,0 +1,6 @@
+
+Selenium POM Framework
+
+1.Add the setup & tear down code in setup() method using fixtures in conftest.py file
+2.Add the utilities package to add common framework logic: logging
+3.Add the browser filter logic
